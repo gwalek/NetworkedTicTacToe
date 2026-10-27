@@ -5,7 +5,6 @@ using Unity.Services.Core;
 using Unity.Services.Authentication;
 using Unity.Services.Multiplayer;
 using TMPro;
-using System.Xml.Serialization;
 
 public class SessionManager : MonoBehaviour
 {
