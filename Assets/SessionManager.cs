@@ -56,6 +56,14 @@ public class SessionManager : MonoBehaviour
 
     }
 
+    public void CopyJoinCodeToClipboard()
+    {
+        GUIUtility.systemCopyBuffer = JoinCodeDisplayField.text; 
+    }
+
+    // Clipboard Icon Attribute info: 
+    // TemplateIcons, CC BY 4.0, via Wikimedia Commons
+
     public async void JoinWithCode()
     {
         // note, we're not doing any type of validation of the code right now. 
